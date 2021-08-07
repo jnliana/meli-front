@@ -1,0 +1,25 @@
+@import "../../../variables";
+
+.price-tag {
+  display: flex;
+  flex-wrap: wrap;
+  &-symbol-sm,
+  &-fraction-sm {
+    font-size: 1.5rem;
+  }
+  &-cents-sm {
+    font-size: 0.75rem;
+    line-height: 2rem;
+  }
+  &-symbol-lg,
+  &-fraction-lg {
+    font-size: 2.25rem;
+  }
+  &-cents-lg {
+    font-size: 1.25rem;
+    line-height: 2.5rem;
+  }
+  & .free-shiping {
+    margin-left: 6px;
+  }
+}
